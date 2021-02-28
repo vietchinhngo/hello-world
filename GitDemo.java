@@ -30,14 +30,7 @@ public class GitDemo {
         }
         
         return factorialNumber;
-        
-        while( num != 0 ) {
-            double temp = num % 10;
-            factorialNumber = factorialNumber * 10 + temp;
-            num /= 10;
-        }
-        
-        return factorialNumber;
+     
     }
     
     /*****
